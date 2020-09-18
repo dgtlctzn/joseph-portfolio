@@ -1,15 +1,15 @@
 var containerEl = $(".link");
 
 containerEl.on("mouseenter", function() {
-    $(this).children().next().removeClass("hide");
-    $(this).children().next().addClass("show");
+    $(this).children().first().removeClass("hide");
+    $(this).children().first().addClass("show");
 
-    $(this).children().first().addClass("opacity");
+    $(this).children().next().addClass("opacity");
 })
 
 containerEl.on("mouseleave", function() {
-    $(this).children().next().removeClass("show");
-    $(this).children().next().addClass("hide");
+    $(this).children().first().removeClass("show");
+    $(this).children().first().addClass("hide");
 
-    $(this).children().first().removeClass("opacity");
+    $(this).children().next().removeClass("opacity");
 })
