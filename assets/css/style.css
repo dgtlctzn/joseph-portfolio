@@ -53,3 +53,13 @@ ul {
   list-style-type: none;
   color: black;
 }
+
+i {
+  color: black;
+  font-size: 80px;
+  padding-right: 30px;
+}
+
+i:hover {
+  color: cornflowerblue; 
+}
