@@ -29,183 +29,139 @@
   </head>
   <body>
     <!-- main container -->
-    <div class="container">
-      <!-- jumbo -->
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="jumbotron bg-dark">
-            <h1 class="display-4">Joseph Perry</h1>
-            <hr class="my-4" />
-            <p>
-              Aspiring developer. Seeking entry level programming position.
-              Experience with JavaScript and Python.
-            </p>
-          </div>
+    <!-- <div class="container"> -->
+    <!-- jumbo -->
+    <div class="row jumbo">
+      <div class="col-sm-12">
+        <!-- <div class="jumbotron bg-dark border-0"> -->
+        <h1 class="display-4">Joseph Perry</h1>
+        <hr class="my-4 bg-light" />
+        <p>
+          Aspiring developer. Seeking entry level programming position.
+          Experience with JavaScript and Python.
+        </p>
+        <!-- </div> -->
+      </div>
+    </div>
+    <!-- dropdown -->
+    <div class="row about-me">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-3">
+        <img id="my-pic" src="./assets/images/IMG_5113.png" />
+      </div>
+
+      <div class="col-sm-3">
+        <h2>About Me</h2>
+
+        <div>
+          I am currently a Georgia Tech bootcamp student based in Atlanta, GA. I
+          am studying full stack development and specialize in jQuery, APIs,
+          Pandas, Jupyter Notebooks, and MatPlotlib. I went to school at the
+          University of Georgia and have a bachelors degree in Chemistry. If I'm
+          not coding you can find me playing guitar or any instrument I can get
+          my hands on!
         </div>
       </div>
-      <!-- dropdown -->
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="accordion" id="accordionExample">
-            <div class="card">
-              <div class="card-header bg-dark" id="headingOne">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-link btn-block text-left"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    About Me
-                  </button>
-                </h2>
-              </div>
+    </div>
 
-              <div
-                id="collapseOne"
-                class="collapse show"
-                aria-labelledby="headingOne"
-                data-parent="#accordionExample"
+    <div class="row projects">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-2">
+        <h2>Projects</h2>
+      </div>
+      <div class="col-sm-8">
+        <!-- Projects -->
+        <div class="row">
+          <div class="col-sm-3 image-container">
+            <a
+              class="link"
+              href="https://github.com/dgtlctzn/covid_rate"
+              target="_blank"
+            >
+              <p class="hide text-orient">Covid Rate Tracker</p>
+              <img src="assets/images/CovidTrackerPic.png" />
+            </a>
+          </div>
+          <div class="col-sm-3 image-container">
+            <a
+              class="link"
+              href="https://github.com/dgtlctzn/Karen_bot"
+              target="_blank"
+            >
+              <p class="hide text-orient">Twitter Bot</p>
+              <img src="assets/images/KarenBotPic.png" />
+            </a>
+          </div>
+          <div class="col-sm-3 image-container">
+            <a
+              class="link"
+              href="https://github.com/dgtlctzn/weather-dashboard"
+              target="_blank"
+            >
+              <p class="hide text-orient">Weather Dashboard</p>
+              <img src="assets/images/WeatherDashboardPic.png" />
+            </a>
+          </div>
+          <div class="col-sm-3 image-container">
+            <a
+              class="link"
+              href="https://github.com/dgtlctzn/weather-dashboard"
+              target="_blank"
+            >
+              <p class="hide text-orient">Code Quiz</p>
+              <img src="assets/images/CodingQuizPic.png" />
+            </a>
+          </div>
+          <div class="col-sm-3 image-container">
+            <a
+              class="link"
+              href="https://github.com/modern-sapien/bootcamp-project-one"
+              target="_blank"
+            >
+              <p class="hide text-orient">Persona Generator</p>
+              <img src="assets/images/PersonaGenPic.png" />
+            </a>
+          </div>
+        </div>
+        <div class="card border-0">
+          <div class="card-header bg-dark" id="headingThree">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link btn-block text-left collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
               >
-                <div class="card-body bg-dark">
-                  I am currently a Georgia Tech bootcamp student based in
-                  Atlanta, GA. I am studying full stack development and
-                  specialize in jQuery, APIs, Pandas, Jupyter Notebooks, and
-                  MatPlotlib. I went to school at the University of Georgia and
-                  have a bachelors degree in Chemistry. If I'm not coding you
-                  can find me playing guitar or any instrument I can get my
-                  hands on!
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header bg-dark" id="headingTwo">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
+                Links
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body bg-dark">
+              <div class="row">
+                <div class="col-sm-12">
+                  <a href="https://github.com/dgtlctzn" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/joseph-perry-6650653a/"
+                    target="_blank"
                   >
-                    Projects
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapseTwo"
-                class="collapse"
-                aria-labelledby="headingTwo"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body bg-dark">
-                  <!-- Projects -->
-                  <div class="row">
-                    <div class="col-sm-3 image-container">
-                      <a
-                        class="link"
-                        href="https://github.com/dgtlctzn/covid_rate"
-                        target="_blank"
-                      >
-                        <p class="hide text-orient">Covid Rate Tracker</p>
-                        <img src="assets/images/CovidTrackerPic.png" />
-
-                      </a>
-                    </div>
-                    <div class="col-sm-3 image-container">
-                      <a
-                        class="link"
-                        href="https://github.com/dgtlctzn/Karen_bot"
-                        target="_blank"
-                      >
-                        <p class="hide text-orient">Twitter Bot</p>
-                        <img src="assets/images/KarenBotPic.png" />
-
-
-                      </a>
-                    </div>
-                    <div class="col-sm-3 image-container">
-                      <a
-                        class="link"
-                        href="https://github.com/dgtlctzn/weather-dashboard"
-                        target="_blank"
-                      >
-                        <p class="hide text-orient">Weather Dashboard</p>
-                        <img src="assets/images/WeatherDashboardPic.png" />
-
-                      </a>
-                    </div>
-                    <div class="col-sm-3 image-container">
-                      <a
-                        class="link"
-                        href="https://github.com/dgtlctzn/weather-dashboard"
-                        target="_blank"
-                      >
-                        <p class="hide text-orient">Code Quiz</p>
-                        <img src="assets/images/CodingQuizPic.png" />
-
-            
-                      </a>
-                    </div>
-                    <div class="col-sm-3 image-container">
-                      <a
-                        class="link"
-                        href="https://github.com/modern-sapien/bootcamp-project-one"
-                        target="_blank"
-                      >
-                        <p class="hide text-orient">Persona Generator</p>
-                        <img src="assets/images/PersonaGenPic.png" />
-
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header bg-dark" id="headingThree">
-                <h2 class="mb-0">
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Links
-                  </button>
-                </h2>
-              </div>
-              <div
-                id="collapseThree"
-                class="collapse"
-                aria-labelledby="headingThree"
-                data-parent="#accordionExample"
-              >
-                <div class="card-body bg-dark">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <a href="https://github.com/dgtlctzn" target="_blank">
-                        <i class="fab fa-github"></i>
-                      </a>
-                      <a
-                        href="https://www.linkedin.com/in/joseph-perry-6650653a/"
-                        target="_blank"
-                      >
-                        <i class="fab fa-linkedin-in"></i>
-                      </a>
-                      <a href="mailto:josephperry720@gmail.com" target="_blank">
-                        <i class="fas fa-at"></i>
-                      </a>
-                      <a href="./CodingResumeJRP.pdf" target="_blank">
-                        <i class="far fa-file"></i>
-                      </a>
-                    </div>
-                  </div>
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="mailto:josephperry720@gmail.com" target="_blank">
+                    <i class="fas fa-at"></i>
+                  </a>
+                  <a href="./CodingResumeJRP.pdf" target="_blank">
+                    <i class="far fa-file"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -213,6 +169,8 @@
         </div>
       </div>
     </div>
+    <!-- </div> -->
+    <!-- </div> -->
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"

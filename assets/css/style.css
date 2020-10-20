@@ -2,19 +2,41 @@ body {
   background-image: url(IMG_3503.jpeg);
   background-size: cover;
   background-attachment: fixed;
-  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  /* color: white; */
 }
 
 .container {
   margin-bottom: 100px;
 }
 
-.jumbotron {
-  margin-top: 15px;
+.jumbo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-me {
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: snow;
+}
+
+#my-pic {
+  border-radius: 100%;
+}
+
+.projects {
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: snow;
 }
 
 h1 {
   font-family: "Source Code Pro", monospace;
+  color: white;
 }
 
 img {
@@ -104,6 +126,6 @@ i:hover {
   }
 }
 
-.card-header:active {
-  outline: none;
-}
+/* .card-header {
+  border-radius: none!important;
+} */
