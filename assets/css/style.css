@@ -4,7 +4,6 @@ body {
   background-attachment: fixed;
   font-family: "Source Code Pro", monospace;
   font-weight: bold;
-  /* color: white; */
 }
 
 .container {
@@ -12,15 +11,23 @@ body {
 }
 
 .jumbo {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  background-color: rgba(53, 53, 53);
+  color: rgb(235, 246, 255);
+}
+
+.heading {
+  padding: 20px;
+  height: 70px;
+  background-color: rgba(53, 53, 53);
+  color: rgb(235, 246, 255);
 }
 
 .about-me {
   padding: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: snow;
+  /* margin-top: 100px; */
+  margin-bottom: 100px;
+  background-color: rgb(235, 246, 255);
 }
 
 #my-pic {
@@ -29,14 +36,25 @@ body {
 
 .projects {
   padding: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: snow;
+  /* margin-top: 100px; */
+  margin-bottom: 100px;
+  background-color: rgb(235, 246, 255);
+}
+
+.links {
+  background-color: rgba(53, 53, 53);
 }
 
 h1 {
+  padding: 20px;
   font-family: "Source Code Pro", monospace;
   color: white;
+  margin-left: 20px;
+}
+
+#lead-text {
+  padding: 20px;
+  margin-left: 20px;
 }
 
 img {
@@ -50,7 +68,7 @@ img {
 }
 
 button {
-  color: white !important;
+  color: rgb(235, 246, 255) !important;
 }
 
 /* #dropdown {
@@ -96,9 +114,13 @@ button {
   opacity: 15%;
 }
 
+h3 {
+  height: 80px;
+}
+
 p {
   font-family: "Source Code Pro", monospace;
-  color: white;
+  /* color: white; */
 }
 
 ul {
@@ -107,7 +129,7 @@ ul {
 }
 
 i {
-  color: white;
+  color: rgb(235, 246, 255);
   font-size: 80px;
   padding: 30px 30px;
 }
